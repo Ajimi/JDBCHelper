@@ -6,10 +6,10 @@ import bits.jdbc.utils.TextUtils;
 
 import java.sql.*;
 
-public class SQLDatabase {
+public class Database {
     private ConnectionPool mConnectionPool;
 
-    public SQLDatabase(ConnectionPool connPool) {
+    public Database(ConnectionPool connPool) {
         this.mConnectionPool = connPool;
     }
 
