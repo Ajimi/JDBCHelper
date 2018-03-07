@@ -17,6 +17,4 @@ public class SQLConnectionPool extends ConnectionPool {
     public SQLConnectionPool(String name, String username, String password) {
         super(DEFAULT_CONNECTION_NUM, DRIVER_NAME, String.format(CONNECTION_URL_BASE, name), username, password);
     }
-
-
 }
